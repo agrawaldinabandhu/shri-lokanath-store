@@ -1,0 +1,39 @@
+.home-wrapper {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f9fb;
+}
+
+.hero {
+  min-height: 80vh;
+  background: linear-gradient(135deg, #28a745 0%, #218838 100%);
+  padding: 3rem;
+}
+
+.features {
+  background-color: #fff;
+}
+
+.feature-box {
+  transition: transform 0.3s ease;
+}
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.hero {
+  position: relative;
+  background-color: #333;
+}
+
+.feature-box i {
+  font-size: 2.5rem;
+}
+
+.home-wrapper .feature-box i {
+  transition: transform 0.3s ease;
+}
+
+.home-wrapper .feature-box:hover i {
+  transform: scale(1.2);
+}

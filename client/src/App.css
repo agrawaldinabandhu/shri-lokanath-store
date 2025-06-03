@@ -1,0 +1,94 @@
+/* General App styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Light Theme */
+body.light {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --card-bg: #f9f9f9;
+  --btn-bg: #007bff;
+  --btn-text: #ffffff;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Dark Theme */
+body.dark {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --card-bg: #1e1e1e;
+  --btn-bg: #bb86fc;
+  --btn-text: #121212;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Containers, Cards, List Items */
+.container,
+.card,
+.list-group-item {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 6px;
+}
+
+/* Buttons */
+.btn-primary,
+.btn-success,
+.btn-danger {
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-primary:hover,
+.btn-success:hover,
+.btn-danger:hover {
+  filter: brightness(90%);
+}
+
+/* Links */
+a {
+  color: var(--btn-bg);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar-light {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+/* Optional: smooth transitions on other elements */
+input.form-control,
+textarea.form-control {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  border: 1px solid #ccc;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+input.form-control:focus,
+textarea.form-control:focus {
+  outline: none;
+  border-color: var(--btn-bg);
+  box-shadow: 0 0 5px var(--btn-bg);
+}
