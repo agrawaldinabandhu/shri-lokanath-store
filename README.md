@@ -26,32 +26,20 @@ A modern, responsive online grocery store built with React and Node.js, featurin
    git clone https://github.com/agrawaldinabandhu/shri-lokanath-store.git
    cd shri-lokanath-store
 Install frontend dependencies:
-
-bash
-Copy
-Edit
 cd client
 npm install
-Install backend dependencies:
 
-bash
-Copy
-Edit
+Install backend dependencies:
 cd ../server
 npm install
-Start backend server:
 
-bash
-Copy
-Edit
+Start backend server:
 npm run dev
 Start frontend app (in another terminal):
 
-bash
-Copy
-Edit
 cd ../client
 npm start
+
 Usage
 Visit http://localhost:3000 in your browser
 
@@ -61,7 +49,6 @@ Toggle between dark and light themes
 
 Folder Structure
 client/ — React frontend code
-
 server/ — Express backend and API
 
 Contributing
