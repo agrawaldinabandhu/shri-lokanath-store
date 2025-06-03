@@ -1,57 +1,61 @@
+````markdown
 # Shri Lokanath Store
 
-A modern, responsive online grocery store built with React and Node.js, featuring a full shopping cart, checkout, and order management system.
+A modern, responsive online grocery store built with React and Node.js, featuring shopping cart, checkout, and order management.
 
 ## Features
 
 - Browse fresh grocery products with images and prices
 - Add products to a persistent shopping cart (localStorage)
-- Checkout with buyer details submission and order creation
-- Dark and light theme support across the entire site
-- Responsive and attractive UI using Bootstrap and custom styles
-- Backend powered by Express and MongoDB for order storage
+- Checkout with buyer details and order creation
+- Dark and light theme support across the whole site
+- Responsive UI with Bootstrap and custom styles
+- Backend with Express and MongoDB for orders
 
 ## Tech Stack
 
-- Frontend: React, React Router, Bootstrap
-- Backend: Node.js, Express
-- Database: MongoDB (via Mongoose)
-- HTTP client: Axios
+- React, React Router, Bootstrap (Frontend)
+- Node.js, Express (Backend)
+- MongoDB (Database)
+- Axios (HTTP client)
 
 ## Installation
 
-1. Clone the repo:
+Clone the repo and install dependencies:
 
-   ```bash
-   git clone https://github.com/agrawaldinabandhu/shri-lokanath-store.git
-   cd shri-lokanath-store
-Install frontend dependencies:
-
- 
-   cd client
-   npm install
-
-Install backend dependencies:
-cd ../server
+```bash
+git clone https://github.com/agrawaldinabandhu/shri-lokanath-store.git
+cd shri-lokanath-store
 npm install
+````
 
-Start backend server:
-npm run dev
-Start frontend app (in another terminal):
+## Running the Project
 
-cd ../client
+Start the backend server:
+
+```bash
+npm run server
+```
+
+Start the frontend app:
+
+```bash
 npm start
+```
 
-Usage
-Visit http://localhost:3000 in your browser
+(Adjust the above commands if you use different scripts in `package.json`)
 
-Browse products, add to cart, and place orders
+## Usage
 
-Toggle between dark and light themes
+* Open `http://localhost:3000` in your browser
+* Browse products, add them to cart
+* Checkout and place orders
+* Toggle between dark and light themes
 
-Folder Structure
-client/ — React frontend code
-server/ — Express backend and API
+## Folder Structure
 
-Contributing
-Feel free to fork the repository and submit pull requests.
+* All code inside `shri-lokanath-store` folder
+
+## Contributing
+
+Fork and send pull requests.
